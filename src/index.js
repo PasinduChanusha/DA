@@ -5,11 +5,15 @@ import App from './App';
 import Post from './Post';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Component2 from './Component2';
+import Component1 from './Component1';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Post/>
+    {/* <Post/> */}
+    <Component2/>
+    <Component1/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import Button from 'react-bootstrap/Button';
+import Component1 from './Component1';
+import Component2 from './Component2';
 
 const coler ={
   color: 'Brown'
@@ -9,8 +10,9 @@ const coler ={
 const App = () => {
   return (
     <div className="App">
-        <h1 style={coler}>Pasindu</h1>
-        <Button>Submit</Button>
+        {/* <h1 style={coler}>Pasindu</h1> */}
+        <Component1/>
+        <Component2/>
     </div>
   );
 }
