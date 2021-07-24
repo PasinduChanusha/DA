@@ -6,7 +6,8 @@ import Component2 from './Component2';
 
 const App = () => {
   return (
-    <div>
+    <div className='App'>
+      <h2>Pasindu Chanusha Sooriyabandara</h2>
     </div>
   );
 }
