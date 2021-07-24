@@ -1,19 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Post from './Post';
+// import App from './App';
+// import Post from './Post';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Component2 from './Component2';
 import Component1 from './Component1';
+import Component2 from './Component2';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    {/* <Post/> */}
-    <Component2/>
-    <Component1/>
+    <Component1 name='ClassBased Component'/>
+    <Component2 name='Function Component'/>
   </React.StrictMode>,
   document.getElementById('root')
 );
