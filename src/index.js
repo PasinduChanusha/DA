@@ -14,7 +14,6 @@ ReactDOM.render(
     {/* <Component1 name='ClassBased Component'/>
     <Component2 name='Function Component'/> */}
     <App/>
-    <Post/>
   </React.StrictMode>,
   document.getElementById('root')
 );
